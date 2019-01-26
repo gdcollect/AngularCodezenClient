@@ -1,0 +1,4 @@
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\bin\Release\DTO.dll
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\bin\Release\DTO.pdb
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\obj\Release\DTO.dll
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\obj\Release\DTO.pdb

@@ -1,0 +1,13 @@
+D:\Nag\SchoolProjects\SchoolService\DTO\bin\Debug\DTO.dll
+D:\Nag\SchoolProjects\SchoolService\DTO\bin\Debug\DTO.pdb
+D:\Nag\SchoolProjects\SchoolService\DTO\obj\Debug\DTO.dll
+D:\Nag\SchoolProjects\SchoolService\DTO\obj\Debug\DTO.pdb
+D:\Nag\SchoolProjects\SchoolService\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\bin\Debug\DTO.dll
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\bin\Debug\DTO.pdb
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\obj\Debug\DTO.dll
+D:\Nag\Javascript\Azure\AngularCodezen\DTO\obj\Debug\DTO.pdb
+D:\Nag\Javascript\Azure\AngularCodezenClient\DTO\bin\Debug\DTO.dll
+D:\Nag\Javascript\Azure\AngularCodezenClient\DTO\bin\Debug\DTO.pdb
+D:\Nag\Javascript\Azure\AngularCodezenClient\DTO\obj\Debug\DTO.dll
+D:\Nag\Javascript\Azure\AngularCodezenClient\DTO\obj\Debug\DTO.pdb

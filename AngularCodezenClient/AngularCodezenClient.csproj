@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A25142B4-5793-42FC-87C2-0CE862E10399}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AngularCodezenClient</RootNamespace>
+    <AssemblyName>AngularCodezenClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonFunctions.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="frmDownloadFilePath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDownloadFilePath.Designer.cs">
+      <DependentUpon>frmDownloadFilePath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgProject.cs" />
+    <Compile Include="NgProject2.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="frmCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckBox.Designer.cs">
+      <DependentUpon>frmCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodeZen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodeZen.Designer.cs">
+      <DependentUpon>frmCodeZen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCombos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCombos.Designer.cs">
+      <DependentUpon>frmCombos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnectionString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnectionString.Designer.cs">
+      <DependentUpon>frmConnectionString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenues.Designer.cs">
+      <DependentUpon>frmMenues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabs.Designer.cs">
+      <DependentUpon>frmTabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UploadFIle.cs" />
+    <EmbeddedResource Include="frmCheckBox.resx">
+      <DependentUpon>frmCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodeZen.resx">
+      <DependentUpon>frmCodeZen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCombos.resx">
+      <DependentUpon>frmCombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnectionString.resx">
+      <DependentUpon>frmConnectionString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDownloadFilePath.resx">
+      <DependentUpon>frmDownloadFilePath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenues.resx">
+      <DependentUpon>frmMenues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabs.resx">
+      <DependentUpon>frmTabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
